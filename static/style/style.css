@@ -1,0 +1,38 @@
+body{
+    background-color: #e0e0e0;
+    font-family: "PT Sans",Helvetica,Arial,sans-serif;
+    width: 60%;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+    font-size: 32px;
+}
+p{
+    font-size: 24px;
+}
+.btn_git{   
+    text-align: center;
+}
+h2{
+    font-size: 24px;
+}
+a{
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+}
+a>span{
+    text-decoration: underline;
+}
+@media only screen and (max-width: 700px) {
+    body {
+        width: 90%;
+    }
+    h1{
+        font-size: 28px;
+    }
+    h2, p{
+        font-size: 18px;
+    }
+  }
