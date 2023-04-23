@@ -25,6 +25,10 @@ a{
 a>span{
     text-decoration: underline;
 }
+.btn_twt{
+    margin-top: 10px;
+    text-align: center;
+}
 @media only screen and (max-width: 700px) {
     body {
         width: 90%;
